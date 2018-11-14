@@ -21,3 +21,9 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo -H python get-pip.py
 # install pip18.0 for python3
 sudo -H python3 get-pip.py
+
+# install numpy and all other tools
+# python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+# system-wide install numpy scipy and all other tools
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython python-pandas python-sympy python-nose python3-numpy python3-scipy python3-matplotlib python3-pandas python3-sympy python3-nose python3-notebook jupyter-core python-ipykernel -y

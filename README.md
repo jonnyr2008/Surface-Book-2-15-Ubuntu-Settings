@@ -24,6 +24,8 @@ Goto Ubuntu "Software & Updates" -- "Additional Drivers" -- check your driver is
 follow the instructions here to make your bumblebee work:  
 https://askubuntu.com/questions/1029169/bumblebee-doesnt-work-on-ubuntu-18-04/1042950#1042950  
 
+Once finish editing grub file, run sudo update-grub  
+
 Approach 2 (Un-Tested)  
 https://github.com/timrichardson/Prime-Ubuntu-18.04  
 
