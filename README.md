@@ -10,7 +10,7 @@ OR
 simply:
 setup.sh  
 
-After finishing the above steps, run "sudo apt-get update && sudo apt-get full-upgrade -y"  
+After finishing above steps, run "sudo apt-get update && sudo apt-get full-upgrade -y"  
 
 REBOOT your SB2  
 
