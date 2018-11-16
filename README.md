@@ -4,7 +4,7 @@ Along with it, this branch contains some scripts for different purposes.
 
 Using "chmod +x <XXX.sh>" to make all scripts executable.  
 
-The sequence of using the scripts:  
+## The sequence of using the scripts:  
 upug.sh -- coding_build_install.sh -- setting_gpu.sh -- jakeyday_surface_install.sh (credit to https://github.com/jakeday/linux-surface)  
 OR  
 simply:
@@ -14,7 +14,8 @@ After finishing above steps, run "sudo apt-get update && sudo apt-get full-upgra
 
 REBOOT your SB2  
 
-Approach 1 (Tested, dGPU is working while using optirun to execute target)  
+## The Rest:  
+### Approach 1 (Tested, dGPU is working while using optirun to execute targets)  
 Now we install and set Bumblebee  
 sudo apt-get update  
 sudo apt-get install bumblebee bumblebee-nvidia virtualgl primus linux-headers-generic -y  
@@ -26,7 +27,7 @@ https://askubuntu.com/questions/1029169/bumblebee-doesnt-work-on-ubuntu-18-04/10
 
 Once finish editing grub file, run sudo update-grub  
 
-Approach 2 (Un-Tested)  
+### Approach 2 (not-yet-Tested)  
 https://github.com/timrichardson/Prime-Ubuntu-18.04  
 
 related to approach2: https://devtalk.nvidia.com/default/topic/1032482/linux/optimus-on-ubuntu-18-04-is-a-step-backwards-but-i-found-the-first-good-solution  
