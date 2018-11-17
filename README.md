@@ -5,20 +5,21 @@ Along with it, this branch contains some scripts for different purposes.
 Using ```chmod +x <XXX.sh>``` to make all scripts executable.  
 
 ## The sequence of using the scripts:  
-```./upug.sh``` -- ```./coding_build_install.sh``` -- ```./setting_gpu.sh``` -- ```./jakeyday_surface_install.sh``` (credit to https://github.com/jakeday/linux-surface)  
+```./upug.sh``` -- ```./coding_build_install.sh``` -- ```./setting_gpu.sh``` -- ```./jakeyday_surface_install.sh```  
+(credit to https://github.com/jakeday/linux-surface)  
 OR  
 simply:
 ```./setup.sh```  
 
-After finishing above steps, run ```sudo apt-get update && sudo apt-get full-upgrade``` -y"  
+After finishing above steps, run ```sudo apt-get update && sudo apt-get full-upgrade -y```  
 
 REBOOT your SB2  
 
 ## The Rest:  
 ### Approach 1 (Tested, dGPU is working while using optirun to execute targets)  
 Now we install and set Bumblebee  
-sudo apt-get update  
-sudo apt-get install bumblebee bumblebee-nvidia virtualgl primus linux-headers-generic -y  
+```sudo apt-get update```  
+```sudo apt-get install bumblebee bumblebee-nvidia virtualgl primus linux-headers-generic -y```  
 
 Goto Ubuntu "Software & Updates" -- "Additional Drivers" -- check your driver is right  
 
