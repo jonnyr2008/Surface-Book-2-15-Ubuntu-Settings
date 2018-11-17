@@ -2,15 +2,15 @@
 This repo is meant to be a tutorial of how the surface book 2 dual boot system is set to make almsot everything to work.  
 Along with it, this branch contains some scripts for different purposes.  
 
-Using "chmod +x <XXX.sh>" to make all scripts executable.  
+Using ```chmod +x <XXX.sh>``` to make all scripts executable.  
 
 ## The sequence of using the scripts:  
-upug.sh -- coding_build_install.sh -- setting_gpu.sh -- jakeyday_surface_install.sh (credit to https://github.com/jakeday/linux-surface)  
+```./upug.sh``` -- ```./coding_build_install.sh``` -- ```./setting_gpu.sh``` -- ```./jakeyday_surface_install.sh``` (credit to https://github.com/jakeday/linux-surface)  
 OR  
 simply:
-setup.sh  
+```./setup.sh```  
 
-After finishing above steps, run "sudo apt-get update && sudo apt-get full-upgrade -y"  
+After finishing above steps, run ```sudo apt-get update && sudo apt-get full-upgrade``` -y"  
 
 REBOOT your SB2  
 
@@ -30,6 +30,10 @@ Once finish editing grub file, run sudo update-grub
 ### Approach 2 (not-yet-Tested)  
 https://github.com/timrichardson/Prime-Ubuntu-18.04  
 
-related to approach2: https://devtalk.nvidia.com/default/topic/1032482/linux/optimus-on-ubuntu-18-04-is-a-step-backwards-but-i-found-the-first-good-solution  
+Related to approach2:  
+https://devtalk.nvidia.com/default/topic/1032482/linux/optimus-on-ubuntu-18-04-is-a-step-backwards-but-i-found-the-first-good-solution  
+
+Other related:  
+https://github.com/Bumblebee-Project/Bumblebee/issues/971
 
 
