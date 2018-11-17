@@ -30,6 +30,8 @@ https://bugs.launchpad.net/ubuntu/+source/bumblebee/+bug/1758243
 
 Once finish editing grub file, run sudo update-grub  
 
+https://www.youtube.com/watch?v=8EYH4IxjizM  
+
 ### Approach 2 (not-yet-Tested)  
 https://github.com/timrichardson/Prime-Ubuntu-18.04  
 
@@ -37,6 +39,7 @@ Related to approach2:
 https://devtalk.nvidia.com/default/topic/1032482/linux/optimus-on-ubuntu-18-04-is-a-step-backwards-but-i-found-the-first-good-solution  
 
 Other related:  
-https://github.com/Bumblebee-Project/Bumblebee/issues/971
+https://github.com/Bumblebee-Project/Bumblebee/issues/971  
+
 
 
