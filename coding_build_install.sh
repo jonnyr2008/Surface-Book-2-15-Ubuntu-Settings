@@ -28,4 +28,6 @@ sudo -H python3 get-pip.py
 # system-wide install numpy scipy and all other tools
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython python-pandas python-sympy python-nose python3-numpy python3-scipy python3-matplotlib python3-pandas python3-sympy python3-nose python3-notebook jupyter-core python-ipykernel python-testresources python3-testresources -y
 
-sudo apt-get install ubuntu-restricted-extras -y
+sudo apt-get install ubuntu-restricted-extras docker synaptic -y
+
+sudo apt-get install openjdk-11-jdk -y
