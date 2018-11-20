@@ -55,6 +55,7 @@ If dGPU is still running on 23-35W, something is wrong.
 
 
 * Declare: at this moment, my driver is nvidia-415 (opensource). 410 is working as well.(Tested)  
+<pre>
 Tue Nov 20 05:12:23 2018  
 +-----------------------------------------------------------------------------+  
 | NVIDIA-SMI 415.13       Driver Version: 415.13       CUDA Version: 10.0     |  
@@ -72,7 +73,7 @@ Tue Nov 20 05:12:23 2018
 |=============================================================================|  
 |  No running processes found                                                 |  
 +-----------------------------------------------------------------------------+  
-
+</pre>
 * After setting up the dGPU, if you want to install cuda-toolkit, please install from PPA.  
 In other words, please use ```sudo apt install nvidia-cuda-toolkit -y```.  
 The Official cuda-toolkit-10 may be failed due to it will try to install official nvidia-410 driver.  
