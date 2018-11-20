@@ -52,6 +52,12 @@ By terminating the program, the power goes back to idle state. (2-3W)
 
 If dGPU is still running on 23-35W, something is wrong.  
 
+
+
+* Declare: at this moment, my driver is nvidia-415 (opensource). 410 is working as well.(Tested)  
+
+
+
 Other related:  
 https://github.com/Bumblebee-Project/Bumblebee/issues/971  
 
