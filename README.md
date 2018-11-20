@@ -45,7 +45,7 @@ At this time, jakeday-linux-surface has not published the solution for acpi issu
 After rebooting, type ```nvidia-smi``` to check if your GPU is running.(showing)
 If it is, check if it is running on 3W. If so, Congratulations!  
 
-Now, you can run ```optirun <program>``` to let your program run off nvidia dGPU. By checking with ```nvidia-smi```, you will see its power cosuming goes up.  
+Now, you can run ```optirun <program>``` to let your program run off nvidia dGPU. By checking with ```nvidia-smi```, you will see its power usage goes up.  
 * ie. Try to run ```optirun glxgears``` and check with ```nvidia-smi```. You should be able to see dGPU power stage goes from P8 to P4 or P0.  
 
 By terminating the program, the power goes back to idle state. (2-3W)  
