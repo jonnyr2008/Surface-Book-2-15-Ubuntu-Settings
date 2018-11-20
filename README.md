@@ -60,6 +60,8 @@ If dGPU is still running on 23-35W, something is wrong.
 In other words, please use ```sudo apt install nvidia-cuda-toolkit -y```.  
 The Official cuda-toolkit-10 may be failed due to it will try to install official nvidia-410 driver.  
 
+* Anaconda and Qt5: please download from the official source and install from there. Don't use ```sudo```. Otherwise, it will be installed to root user.  
+
 Other related:  
 https://github.com/Bumblebee-Project/Bumblebee/issues/971  
 
