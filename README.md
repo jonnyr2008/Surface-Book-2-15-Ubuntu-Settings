@@ -56,7 +56,9 @@ If dGPU is still running on 23-35W, something is wrong.
 
 * Declare: at this moment, my driver is nvidia-415 (opensource). 410 is working as well.(Tested)  
 
-
+* After setting up the dGPU, if you want to install cuda-toolkit, please install from PPA.  
+In other words, please use ```sudo apt install nvidia-cuda-toolkit -y```.  
+The Official cuda-toolkit-10 may be failed due to it will try to install official nvidia-410 driver.  
 
 Other related:  
 https://github.com/Bumblebee-Project/Bumblebee/issues/971  
