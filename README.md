@@ -56,15 +56,15 @@ If dGPU is still running on 23-35W, something is wrong.
 
 * Declare: at this moment, my driver is nvidia-415 (opensource). 410 is working as well.(Tested)  
 <pre>
-Tue Nov 20 05:12:23 2018
+Fri Dec 21 17:31:47 2018       
 +-----------------------------------------------------------------------------+
-| NVIDIA-SMI 415.13       Driver Version: 415.13       CUDA Version: 10.0     |
+| NVIDIA-SMI 415.25       Driver Version: 415.25       CUDA Version: 10.0     |
 |-------------------------------+----------------------+----------------------+
 | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |===============================+======================+======================|
 |   0  GeForce GTX 1060    Off  | 00000000:02:00.0 Off |                  N/A |
-|  0%   43C    P8     3W /  N/A |      0MiB /  6080MiB |      0%      Default |
+| N/A   36C    P8     2W /  N/A |      0MiB /  6080MiB |      0%      Default |
 +-------------------------------+----------------------+----------------------+
                                                                                
 +-----------------------------------------------------------------------------+
