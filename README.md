@@ -40,8 +40,8 @@ Run the following command:
 ```printf 'start on    (runlevel [2345])\nstop on     (runlevel [016])\n' | sudo tee /etc/init/bumblebeed.override```  
 (credit to: https://github.com/Bumblebee-Project/Bumblebee/issues/337)  
 
-At this time, jakeday-linux-surface has not published the solution for acpi issue, which once being resolved, the fan of dGPU and battery status should have run normally.  
-
+At this time, jakeday-linux-surface has not published the solution for acpi issue, which once being resolved, the fan of dGPU should have run normally.  
+* update Jan. 11th. 2019: The latest update has fixed the battery status issue, but it comes with a lid-closing problem. Now the kernal version is 4.18.20  
 After rebooting, type ```nvidia-smi``` to check if your GPU is running.(showing)
 If it is, check if it is running on 3W. If so, Congratulations!  
 
