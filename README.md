@@ -41,7 +41,8 @@ Run the following command:
 (credit to: https://github.com/Bumblebee-Project/Bumblebee/issues/337)  
 
 At this time, jakeday-linux-surface has not published the solution for acpi issue, which once being resolved, the fan of dGPU should have run normally.  
-* update Jan. 28th. 2019: The latest update has fixed the battery status issue. For anyone who has issues regarding lid-closing, ie surface is shutting down while closing the lid. That might be because of you have hibernation and suspend turned on at the same time while closing you lid. To resolve it, install "gnome tweaks" and turn off "suspend as lid closed". Now the kernal version is 4.19.18  
+* update Jan. 28th. 2019: The latest update has fixed the battery status issue. For anyone who has issues regarding lid-closing, ie surface is shutting down while closing the lid. That might be because of you have hibernation and suspend turned on at the same time while closing you lid. To resolve it, install "gnome tweaks" and turn off "suspend as lid closed". Now the kernal version is 4.19.18    
+
 After rebooting, type ```nvidia-smi``` to check if your GPU is running.(showing)
 If it is, check if it is running on 3W. If so, Congratulations!  
 
