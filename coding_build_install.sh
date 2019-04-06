@@ -13,7 +13,7 @@ sudo apt install build-essential tool-name dkms binutils-dev libncurses5-dev lib
 sudo apt install vim vim-gtk -y
 
 # install python
-sudo apt-get install python python3 python3-dev python-dev -y
+sudo apt-get install python python3 python3-dev python-dev testresources -y
 
 # install pip 18.0
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
